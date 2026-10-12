@@ -1,0 +1,20 @@
+# Python virtual environments
+.venv*/
+.runtime/
+
+# Python cache and testing
+**/__pycache__/
+.pytest_cache/
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+
+# Generated backend files
+backend/*.db
+backend/uploads/
+backend/reports/
